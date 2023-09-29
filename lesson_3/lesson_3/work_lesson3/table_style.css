@@ -1,0 +1,36 @@
+table{
+ background-color: azure;
+}
+table{
+    width: 500px;
+    height: 100%;
+    border: 1px solid black; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(184, 230, 230);
+}
+tbody{
+    background-color: rgb(199, 198, 198);
+}
+td{
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+}
+td:hover{
+    background-color: rgb(158, 148, 148);
+
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #9198e5;
+    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(to left, #333, #333, 50%, #eee 75%, #333 75%);
+
+}

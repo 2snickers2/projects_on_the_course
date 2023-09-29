@@ -1,0 +1,80 @@
+
+body{
+    background-color:rosybrown ;
+    margin: 30px;
+}
+.block_inner{
+    width: 600px;
+    height: 50px;
+   
+}
+.block{
+    margin: 30px;
+    width: 600px;
+}
+.pink{
+    background-color: rgb(238, 108, 130);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+    }
+.yellow{
+    background-color: yellow;
+}
+.gray{
+    background-color: gray;
+}
+.black{
+    background-color: black;
+}
+.block1{
+width: 200px;
+height: 50px;
+float: left;
+}
+.block3{
+    width: 300px;
+    height: 50px;
+    float: left; 
+}
+.last_block{
+    height: 200px;
+    background-color: darkcyan;
+    float: left;
+}
+.square{
+width: 120px;
+height: 120px;
+border: 15px solid rgb(49, 2, 48);
+margin: 20px;
+float: left;
+}
+.block:hover{
+background-color: darkgreen;
+}
+.square:hover{
+    background-color: gold;
+}
+
+.red:hover{
+    background-color: turquoise;
+}
+.black:hover{
+    background-color: blueviolet;
+}
+.green:hover{
+    background-color: cornflowerblue;
+}
+.yellow:hover{
+    background-color: rgb(207, 0, 0);
+}
+.blue:hover{
+    background-color: rgb(102, 102, 168);
+    
+}

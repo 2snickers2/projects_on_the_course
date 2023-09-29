@@ -1,0 +1,11 @@
+.block_inner{
+    height: 100%;
+    width: 50%;
+}
+.red{
+    background-color: brown;
+  
+}
+div{
+    display: block;
+}

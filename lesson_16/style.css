@@ -1,0 +1,52 @@
+ul{
+  list-style-type: none; 
+   
+}
+nav{
+    background-color: orangered;
+    line-height: 70px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 20px;
+    font-family: monospace;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+nav ul li{
+    display: inline-block;
+}
+ul ul{
+    position: absolute;
+    display: none;
+   
+
+}
+nav ul ul li {
+    display: block;
+    background-color: orangered;
+    color: black;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav a{
+    display: block;
+    
+}
+ul ul li{
+    width: 270px;
+}
+ul ul ul {
+    margin-left: 270px;
+    margin-top: -70px;
+}
+
+

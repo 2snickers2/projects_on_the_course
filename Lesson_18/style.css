@@ -1,0 +1,61 @@
+.first{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 60px 10px;
+
+}
+.row{
+    padding: 10px;  
+}
+.heading_text{
+    height: 100%;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+.card{
+    height: 170px;
+    width: 240px;
+    background: linear-gradient(to top,#fcb0dacc 20%, #1e21dba4 60%, #10abee9c 80%);
+    border-radius: 20px;
+    box-shadow: blue 0 0 20px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(0, 15, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading_text:hover{
+   
+
+}
+.heading_text{
+    height: 50px;
+    width: 770px;
+    
+}
+.card-title{
+    color: rgb(209, 209, 209);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: url(sea.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}

@@ -1,0 +1,143 @@
+.big_block{
+    width: 800px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-radius: 30px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mini_block1{
+    height: 746px;
+    width: 350px;
+    background-color: rgb(149, 194, 196);
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.mini_block2{
+    height: 746px;
+    width: 446px;
+    background-color: darkcyan;
+    position: absolute;
+    left: 350px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    justify-content: space-around;
+    
+}
+.gener{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+    border-radius: 50px;
+   
+
+}
+.top_block{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.text_title{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 35px;
+}
+.gener:hover{
+    background-color: grey;
+}
+.down_block{
+    height: 500px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+.text_3{
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: rgb(93, 87, 87);
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 15px;
+}
+.contact_block{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 115, 115);
+    border-radius: 30px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+   
+}
+h4{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+h3{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: white;
+    
+}
+.text_down{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(171, 171, 171);
+}
+.text_mini{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.block_end{
+    height: 40px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+body{
+    background-color:wheat;
+}
+h5{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    
+}

@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: #C69B7B;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.networks{
+    margin-left: 20px;
+
+}
+ol{
+    align-items: center;
+}
+p{ 
+    color: #A13333;
+    
+}
+h1{
+    color: #3A3845;
+}
+h2{
+    color: #3A3845;
+}
+ol{
+    font-size: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+p{
+    font-size: 30px;
+}
+ol{
+   list-style: square; 
+}
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flags{
+    width: 50px;
+    height: 40px;
+}
+.blue{
+    background-color: blue;
+    height: 50%;
+}
+.yellow{
+    background-color: yellow;
+    height: 50%;
+}
+.contacts{
+    margin-left: 30px;
+}
